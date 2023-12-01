@@ -1,0 +1,327 @@
+
+#skip{
+  text-align: left;
+  justify-content: left;
+  align-self: left;
+  position: absolute;
+  top: -40px;
+  left:0;
+  -webkit-transition: top 1s ease-out;
+  transition: top 1s ease-out;
+}
+#skip:focus{
+  top:20px;
+  background-color:aliceblue;
+}
+main{
+    background-color: lightblue;
+    background-image: url("../images/background.jpg");
+    background-size:cover;
+  background-repeat: no-repeat;
+  background-position: center center;
+  margin: 0;
+}
+body {text-align: center;
+  overflow: hidden;
+  padding-top: 55px;
+}
+
+html, body {
+  max-width: 100%;
+  overflow-x: hidden;
+}
+
+iframe {width:560px; height:315px; }
+
+h1{
+    font-size: 50px;
+}
+img {
+  width: 250px;
+}
+h2{
+    font-size: 45px;
+    max-width: fit-content;
+    padding: 10px;
+}
+
+h3{font-size: 40px;
+border: black 7px solid;
+padding: 10px;}
+p{ font-size: 30px;}
+
+section {
+  width: 100%;
+  height: 100%;
+  position: relative;
+}
+section.horizontal .pin-wrap,
+section.horizontal .animation-wrap {
+    display: flex;
+    position: relative;
+    z-index: 1;  
+    height: 100vh;
+}
+section.horizontal .item {
+  position: relative;
+  padding:  100px 200px 0px 150px;
+  flex: 0 0 100px;
+  display: inline-block;
+  align-items: center;
+  line-height: 1.5;
+  border: 5px solid rgba(0, 0, 0, 0.5);
+  background-color: transparent;
+  box-sizing: border-box;
+  background-size:cover;
+  background-repeat: no-repeat;
+  background-position: center center;
+  margin: 0;
+}
+.knd{
+  background-image: url("../images/kndb.jpeg");
+}
+.grim{
+  background-image: url("../images/grimb.jpg");
+}
+.suite{
+  background-image: url("../images/tipton.jpg");
+}
+.ed{
+  background-image: url("../images/edb.jpg");
+}
+.courage{
+  background-image: url("../images/cb.jpg");
+}
+.bat{
+  background-image: url("../images/neo.jpeg");
+}
+.teen{
+  background-image: url("../images/ttower.jpeg");
+}
+.ben{
+  background-image: url("../images/rust.jpeg");
+}
+.drake{
+  background-image: url("../images/door.jpg");
+}
+.el{
+  background-image: url("../images/el.jpg");
+}
+.sin{background-image: url("../images/bad.jpeg");}
+.sand{background-image: url("../images/sand.jpeg");}
+
+.shrek{background-image: url("../images/green.jpeg");}
+.jack{background-image: url("../images/jack.jpg");}
+.groove{background-image: url("../images/lama.jpeg");}
+.supes{background-image: url("../images/edna.jpg");}
+.spy{background-image: url("../images/kids.jpeg");}
+.stitch{background-image: url("../images/stich.jpeg");}
+section.horizontal .item h3,section.horizontal .item p{
+  width: 100%;
+  ;
+}
+
+.indi{background-image: url("../images/ib.jpeg");}
+.ass{background-image: url("../images/assb.jpg");}
+.sims{background-image: url("../images/sims.jpg");}
+.over{background-image: url("../images/over.jpg");}
+.fall{background-image: url("../images/fall.jpg");}
+.red{background-image: url("../images/redb.jpg");}
+.han{background-image: url("../images/legob.jpg");}
+.gear{background-image: url("../images/gearsb.jpg");}
+.halo{background-image: url("../images/rvb.jpeg");}
+
+.slide {position: relative;}
+.cc{position: relative;
+  width: 100%;
+  height: 60vh;
+  display: grid;
+  justify-content: center;
+  align-items: center;
+  margin-bottom: 50px;
+  border-radius: 30px;
+  box-shadow: 0 0 30px 0 rgba(0, 0, 0);
+grid-template-columns: 1fr 1fr;
+gap: 10px;
+}
+
+.cc h3{
+  grid-column: 1/span 2;
+}
+.cc img, .cc p{margin: 0 auto;
+  position: relative;
+  overflow: hidden;}
+.cc iframe{
+  grid-column: 1/span 2;
+  margin: 0 auto;
+  position: relative;
+      overflow: hidden;
+      width:560px; height:315px;  
+}
+.cc{box-sizing: border-box;
+  background-size:cover;
+  background-repeat: no-repeat;
+  background-position: center center;
+  margin: 0;}
+
+.s1{z-index: 1;
+background-image: url("../images/trekb.jpeg");}
+.s2{z-index: 2;
+  background-image: url("../images/gateb.jpg");}
+.s3{z-index: 3;
+  background-image: url("../images/starb.jpg");}
+.s4{z-index: 4;
+  background-image: url("../images/romeb.jpg");}
+.s5{z-index: 5;
+  background-image: url("../images/throneb.jpg");}
+.s6{z-index: 6;
+  background-image: url("../images/pirateb.jpg");}
+.s7{z-index: 7;
+  background-image: url("../images/incredibleb.jpg");}
+.s8{z-index: 8;
+  background-image: url("../images/catchb.jpg");}
+.s9{z-index: 9;
+  background-image: url("../images/boysb.jpg");}
+
+.t1{z-index: 1;
+background-image: url("../images/scottb.jpg");}
+.t2{z-index: 2;
+  background-image: url("../images/mafia.jpeg");}
+.t3{z-index: 3;
+  background-image: url("../images/duneb.jpg");}
+.t4{z-index: 4;
+  background-image: url("../images/ballb.jpg");}
+.t5{z-index: 5;
+  background-image: url("../images/squad.jpeg");}
+.t6{z-index: 6;
+  background-image: url("../images/powerb.jpeg");}
+.t7{z-index: 7;
+  background-image: url("../images/starbb.jpg");}
+.t8{z-index: 8;
+  background-image: url("../images/jonesb.jpeg");}
+.t9{z-index: 9;
+  background-image: url("../images/pool.jpg");}
+
+.y1{z-index: 1;
+background-image: url("../images/inf.jpeg");}
+.y2{z-index: 2;
+  background-image: url("../images/gearsbb.jpg");}
+.y3{z-index: 3;
+  background-image: url("../images/fall2.jpg");}
+.y4{z-index: 4;
+  background-image: url("../images/dead2.jpg");}
+.y5{z-index: 5;
+  background-image: url("../images/garry.jpeg");}
+.y6{z-index: 6;
+  background-image: url("../images/xcom2.jpg");}
+.y7{z-index: 7;
+  background-image: url("../images/border.jpg");}
+.y8{z-index: 8;
+  background-image: url("../images/had.jpg");}
+.y9{z-index: 9;
+  background-image: url("../images/left.jpeg");}
+
+h3{background-color: rgba(255, 255, 255, 0.7);
+border-radius: 10px;
+margin-bottom: 30px;
+margin: 0 auto;
+margin-bottom: 30px;}
+.cc h3{margin-top: 30px;}
+
+p{background-color: rgba(202, 197, 197, 0.8);margin: 0 auto;
+border-radius: 20px;
+border: 8px solid rgba(77, 167, 69, 0.6)}
+h1{margin-right:50px ;
+  background-color: rgba(207, 207, 94, 0.8);margin: 0 auto;}
+h2{border: solid black 6px;
+  
+  background-color: rgba(0, 208, 255, 0.9);margin: 0 auto;}
+
+img,iframe{border: 7px solid maroon;margin: 0 auto;}
+
+img:hover,iframe:hover{scale: 1.2;
+border:7px solid rgb(0, 128, 102) ;}
+
+iframe:hover{scale: 1.1;
+  border:7px solid rgb(0, 128, 102) ;}
+
+  #top{margin: 0 auto;}
+  ul {
+    list-style-type: none;
+  }
+
+  nav li{
+    display: inline-block;
+padding: 2%;
+margin:2%;
+}
+nav{
+    border: 2px solid black;
+    background-color: lightgrey;
+    display: flex;
+    justify-content:space-evenly;
+    align-content: center;
+    font-size: 25px;
+
+}
+
+nav li {padding:10px;
+margin:0;
+list-style:none;
+}
+
+#nav {
+  position: fixed;
+  top: 0;
+  left: 0;
+  width: 100%;
+  background-color: #fff; 
+  z-index: 1000;
+}
+
+#nav ul {
+  list-style: none;
+  padding: 0;
+  margin: 0;
+  display: flex;
+  justify-content: center; 
+  background-color: #fff; }
+
+#nav li {
+  margin-right: 20px;
+}
+
+#nav a {
+  text-decoration: none;
+  color: #333;
+  position: relative;
+}
+
+#nav a::after {
+  content: "";
+  display: block;
+  position: absolute;
+  bottom: -5px;
+  left: 0;
+  width: 0;
+  height: 2px;
+  background-color: #00bcd4; 
+  transition: width 0.3s ease;
+}
+
+#nav a:hover::after,
+#nav a.active::after {
+  width: 100%;
+}
+
+h1,p{max-width: fit-content;
+padding: 20px;
+}
+h1{border: darkcyan 3px solid;
+font-family:'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;}
+
+p{font-family: Georgia, 'Times New Roman', Times, serif;}
+
+h2{font-family: Verdana, Geneva, Tahoma, sans-serif;}
+
+h3{font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;}
