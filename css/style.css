@@ -13,7 +13,7 @@
   top:20px;
   background-color:aliceblue;
 }
-main{
+main,section,.m{
     background-color: lightblue;
     background-image: url("../images/background.jpg");
     background-size:cover;
@@ -241,6 +241,8 @@ img,iframe{border: 7px solid maroon;margin: 0 auto;}
 
 img:hover,iframe:hover{scale: 1.2;
 border:7px solid rgb(0, 128, 102) ;}
+.item:hover{scale: 1.1;
+  }
 
 iframe:hover{scale: 1.1;
   border:7px solid rgb(0, 128, 102) ;}
@@ -325,3 +327,5 @@ p{font-family: Georgia, 'Times New Roman', Times, serif;}
 h2{font-family: Verdana, Geneva, Tahoma, sans-serif;}
 
 h3{font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;}
+
+.item:hover{border: firebrick solid 7px;}
